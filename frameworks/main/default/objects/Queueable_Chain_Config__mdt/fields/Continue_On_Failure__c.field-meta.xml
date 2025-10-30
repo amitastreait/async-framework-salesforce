@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Continue_On_Failure__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether to continue chain if this queueable fails</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Whether to continue chain if this queueable fails</inlineHelpText>
+    <label>Continue On Failure</label>
+    <type>Checkbox</type>
+</CustomField>

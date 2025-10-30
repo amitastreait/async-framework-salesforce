@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Contact Processing</label>
+    <protected>false</protected>
+    <values>
+        <field>Batch_Size__c</field>
+        <value xsi:type="xsd:double">200.0</value>
+    </values>
+    <values>
+        <field>Current_Batch__c</field>
+        <value xsi:type="xsd:string">SampleBatch3</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Process contacts second</value>
+    </values>
+    <values>
+        <field>Execution_Delay__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Max_Retries__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Next_Batch__c</field>
+        <value xsi:type="xsd:string">SampleBatch2</value>
+    </values>
+</CustomMetadata>
